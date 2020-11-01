@@ -1,5 +1,5 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
-OpponentDead = true;
+gameIson = true;
 gameIslost = false;
 currentOpponent = "";
