@@ -11,6 +11,9 @@ if keyboard_check_pressed(ord("Q")){
 		}
 		i++
 	}
+	if success == false{
+		objSelector.gameIslost = true;
+	}
 	show_debug_message(success)
 }
 
@@ -23,6 +26,9 @@ if keyboard_check_pressed(ord("D")){
 		
 		}
 		i++
+	}
+	if success == false{
+		objSelector.gameIslost = true;
 	}
 	show_debug_message(success)
 }

@@ -1,4 +1,5 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
-gameIson = true;
-gameIslost = false;
+if gameIslost{
+	draw_text(x, y, "You Lost");
+}

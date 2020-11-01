@@ -1,6 +1,6 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
-if gameIson == true{
+if gameIson == true and gameIslost == false{
 	show_debug_message("Here's your random selection: ");
 	poolMonsters = [objMonster_Demon];
 	poolChilds = [objChild_Regular];
@@ -21,4 +21,6 @@ if gameIson == true{
 		};
 		inst = instance_create_layer(x,y,1,currentOpponent);
 		gameIson = false;
+}else if gameIslost == true{
+	
 }
