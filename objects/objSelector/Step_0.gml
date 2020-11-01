@@ -21,6 +21,9 @@ if gameIson == true and gameIslost == false{
 		};
 		inst = instance_create_layer(x,y,1,currentOpponent);
 		gameIson = false;
-}else if gameIslost == true{
-	
+}else if gameIslost{
+	if keyboard_check_pressed(vk_space){
+		gameIslost = false;
+		gameIson = true;
+	}
 }
