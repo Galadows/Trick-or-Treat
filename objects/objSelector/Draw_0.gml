@@ -8,3 +8,4 @@ if gameIslost{
 	draw_text(x, 0, objPlayer.time_string);
 	draw_text(0, 0, objPlayer.playerScore);	
 }
+
