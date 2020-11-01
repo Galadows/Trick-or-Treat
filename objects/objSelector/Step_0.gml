@@ -23,7 +23,7 @@ if gameIson == true and gameIslost == false{
 		currentOpponent=poolMonsters[monster_selected];
 		};
 		instance_create_layer(x,y,1,currentOpponent);
-		objPlayer.steps = 1000;
+		objPlayer.steps = ceil(objPlayer.steps_default);
 		gameIson = false;
 }else if gameIslost{
 	if keyboard_check_pressed(vk_space){
