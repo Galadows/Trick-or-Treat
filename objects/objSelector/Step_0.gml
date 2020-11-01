@@ -1,5 +1,6 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
+
 if gameIson == true and gameIslost == false{
 	show_debug_message(gameIson);
 	show_debug_message(gameIslost);
@@ -21,7 +22,8 @@ if gameIson == true and gameIslost == false{
 		monster_selected =random(ceil(array_length(poolMonsters)))
 		currentOpponent=poolMonsters[monster_selected];
 		};
-		inst = instance_create_layer(x,y,1,currentOpponent);
+		instance_create_layer(x,y,1,currentOpponent);
+		objPlayer.steps = 1000;
 		gameIson = false;
 }else if gameIslost{
 	if keyboard_check_pressed(vk_space){
