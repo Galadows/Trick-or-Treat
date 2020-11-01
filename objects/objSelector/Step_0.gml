@@ -1,6 +1,8 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
-if gameIson == true and gameIslost == false{
+if OpponentDead == true and gameIslost == false{
+	show_debug_message(OpponentDead);
+	show_debug_message(gameIslost);
 	show_debug_message("Here's your random selection: ");
 	poolMonsters = [objMonster_Demon];
 	poolChilds = [objChild_Regular];
@@ -18,9 +20,9 @@ if gameIson == true and gameIslost == false{
 		nbMonsters++;
 		monster_selected =random(ceil(array_length(poolMonsters)))
 		currentOpponent=poolMonsters[monster_selected];
-		};
-		inst = instance_create_layer(x,y,1,currentOpponent);
-		gameIson = false;
-}else if gameIslost == true{
+	};
+	instance_create_layer(x,y,1,currentOpponent);
+	OpponentDead = false;
+} else if gameIslost == true {
 	
 }

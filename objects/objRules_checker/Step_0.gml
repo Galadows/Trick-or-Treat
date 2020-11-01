@@ -1,6 +1,5 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
-success = false;
 if keyboard_check_pressed(ord("Q")){
 	i = 0;
 	show_debug_message(array_length(objRules.tricks))

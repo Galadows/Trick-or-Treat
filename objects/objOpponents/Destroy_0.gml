@@ -1,3 +1,3 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
-objSelector.gameIson = true;
+objSelector.OpponentDead = true;
