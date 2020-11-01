@@ -5,8 +5,8 @@ camera_set_view_size(view,ViewWidth,ViewHeight);
 
 if instance_exists(objPlayer) {
 	Speed = 0.1;
-	TargetX = objPlayer.x;
-	TargetY = objPlayer.y;
+	TargetX = objPlayer.x - ViewWidth/2;
+	TargetY = objPlayer.y - ViewHeight/2;
 	camera_set_view_pos(view,TargetX,TargetY);
 	
 	CameraX = camera_get_view_x(view);
