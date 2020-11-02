@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SprGhostChild1",
-    "path": "sprites/SprGhostChild1/SprGhostChild1.yy",
+    "name": "SprGhostChild2",
+    "path": "sprites/SprGhostChild2/SprGhostChild2.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objets",
-    "path": "folders/Objets.yy",
+    "name": "Childs",
+    "path": "folders/Objets/Childs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objChild_Regular",
+  "name": "objGhostChild2",
   "tags": [],
   "resourceType": "GMObject",
 }

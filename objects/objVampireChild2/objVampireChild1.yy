@@ -1,10 +1,16 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "SprGhostChild2",
+    "path": "sprites/SprGhostChild2/SprGhostChild2.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "objChilds",
+    "path": "objects/objChilds/objChilds.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -17,18 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"ObjUI","path":"objects/ObjUI/ObjUI.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"ObjUI","path":"objects/ObjUI/ObjUI.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Backstage",
-    "path": "folders/Objets/Backstage.yy",
+    "name": "Childs",
+    "path": "folders/Objets/Childs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ObjUI",
+  "name": "objVampireChild1",
   "tags": [],
   "resourceType": "GMObject",
 }

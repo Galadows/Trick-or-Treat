@@ -10,9 +10,9 @@ if gameIslost{
 	draw_set_font(Font1);
 	draw_text(room_width/2, room_height/3, "Game Over\n\n Retry ?\n");
 	draw_set_font(Font2);
-	draw_text(room_width/2, room_height/3 + 48, "Press space");
+	draw_text(room_width/2, room_height/3 + 48, "Press Q");
 }else if gameIslost == false{
 	draw_text(room_width/2, 0, objPlayer.time_string);
-	draw_text(8, 0, objPlayer.playerScore);	
+	draw_text(20, 0, "Score: "+string(objPlayer.playerScore));	
 }
 

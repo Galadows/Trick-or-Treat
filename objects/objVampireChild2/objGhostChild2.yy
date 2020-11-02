@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "Sprite1",
-    "path": "sprites/Sprite1/Sprite1.yy",
+    "name": "SprGhostChild2",
+    "path": "sprites/SprGhostChild2/SprGhostChild2.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "objPlayer",
-    "path": "objects/objPlayer/objPlayer.yy",
+    "name": "objChilds",
+    "path": "objects/objChilds/objChilds.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,17 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Button","path":"objects/Button/Button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objets",
-    "path": "folders/Objets.yy",
+    "name": "Childs",
+    "path": "folders/Objets/Childs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Button",
+  "name": "objGhostChild2",
   "tags": [],
   "resourceType": "GMObject",
 }

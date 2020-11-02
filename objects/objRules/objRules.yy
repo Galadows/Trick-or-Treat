@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objets",
-    "path": "folders/Objets.yy",
+    "name": "Backstage",
+    "path": "folders/Objets/Backstage.yy",
   },
   "resourceVersion": "1.0",
   "name": "objRules",

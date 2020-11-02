@@ -5,8 +5,14 @@ if gameIson == true and gameIslost == false{
 	show_debug_message(gameIson);
 	show_debug_message(gameIslost);
 	show_debug_message("Here's your random selection: ");
-	poolMonsters = [objMonster_Demon];
-	poolChilds = [objChild_Regular];
+	//Monsters
+	poolMonsters = [objGhost1,
+	objGhost2];
+	
+	//Childs
+	poolChilds = [objGhostChild1,
+	objGhostChild2];
+	
 	nbChilds = 0;
 	nbMonsters = 0;
 	if random(10) < 5 and nbChilds < 3 or nbMonsters == 3 {
@@ -26,7 +32,7 @@ if gameIson == true and gameIslost == false{
 		objPlayer.steps = ceil(objPlayer.steps_default);
 		gameIson = false;
 }else if gameIslost{
-	if keyboard_check_pressed(vk_space){
+	if keyboard_check_pressed(ord("Q")){
 		gameIslost = false;
 		gameIson = true;
 	}

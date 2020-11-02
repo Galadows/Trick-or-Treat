@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "SprGhost1",
-    "path": "sprites/SprGhost1/SprGhost1.yy",
+    "name": "SprGhostChild2",
+    "path": "sprites/SprGhostChild2/SprGhostChild2.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "objMonsters",
-    "path": "objects/objMonsters/objMonsters.yy",
+    "name": "objChilds",
+    "path": "objects/objChilds/objChilds.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objets",
-    "path": "folders/Objets.yy",
+    "name": "Childs",
+    "path": "folders/Objets/Childs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objMonster_Demon",
+  "name": "objGhostChild2",
   "tags": [],
   "resourceType": "GMObject",
 }
